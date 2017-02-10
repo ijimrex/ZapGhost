@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Defender1.cs" />
+     <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
      <Compile Include="Assets\Scripts\Monster1Movement.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
  <Reference Include="UnityEngine.UI">
