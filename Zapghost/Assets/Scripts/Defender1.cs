@@ -11,11 +11,7 @@ public class Defender1 : MonoBehaviour {
 	private float nextFire;
 	// Use this for initialization
 	void Start () {
-<<<<<<< HEAD
 		fireRate = 5;
-=======
-		fireRate = 0.5f;
->>>>>>> origin/master
 	}
 	
 	// Update is called once per frame
