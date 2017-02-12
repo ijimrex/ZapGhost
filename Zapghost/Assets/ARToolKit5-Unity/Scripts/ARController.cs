@@ -1615,7 +1615,7 @@ public class ARController : MonoBehaviour
                 3, 2, 0
             };
 
-//        m.Optimize();
+        ;
 		return m;
     }
 
