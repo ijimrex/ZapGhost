@@ -46,38 +46,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\AnimationBehaviors.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\CharacterBehaviors.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\FisticuffsController.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\FollowCameraPrecise.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\GloveScript.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\LookAtCameraFisticuffs.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\TimedSelfDeactivate.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Examples\Fisticuffs\Scripts\TimedSelfDestruct.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARCamera.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARController.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARMarker.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARNativePlugin.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARNativePluginStatic.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\AROrigin.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARPattern.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTrackedCamera.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTrackedObject.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
      <Compile Include="Assets\Scripts\Defender1.cs" />
      <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
-     <Compile Include="Assets\Scripts\Monster1Movement.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\MonsterHealth.cs" />
+     <Compile Include="Assets\Scripts\MonsterMovement.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.PlaymodeTestsRunner">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
@@ -90,9 +70,6 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
