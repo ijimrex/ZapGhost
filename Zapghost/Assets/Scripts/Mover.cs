@@ -7,7 +7,7 @@ public class Mover : MonoBehaviour {
 	public float speed;
 	// Use this for initialization
 	void Start () {
-		speed = 100;
+		speed = 1;
 		GetComponent<Rigidbody> ().velocity = transform.forward * speed;
 	}
 }
