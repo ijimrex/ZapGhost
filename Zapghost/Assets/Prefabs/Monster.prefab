@@ -57,8 +57,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1595228291648032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 12.89}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 4929805222720198}
   m_Father: {fileID: 0}
@@ -167,12 +167,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595228291648032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3f3f8ab0be274dd38f36c70f50475cc, type: 3}
+  m_Script: {fileID: 11500000, guid: ff45c235979594ede9cbb5142d04c55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  scoreValue: 10
+  moveSpeed: 5
 --- !u!114 &114894297916961752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,10 +179,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1595228291648032}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0de1e0d9ce58b48d0bf2e4f53ff623de, type: 3}
+  m_Script: {fileID: 11500000, guid: d4539e6e2ee084216a30577888bcc4a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  startingHealth: 100
+  currentHealth: 0
+  scoreValue: 10
 --- !u!135 &135531377221495646
 SphereCollider:
   m_ObjectHideFlags: 1
