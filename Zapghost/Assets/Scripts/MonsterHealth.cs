@@ -18,16 +18,11 @@ public class MonsterHealth : MonoBehaviour
 	{
 		if (other.tag == "Bolt" && currentHealth >0)
 		{
-			TakeDamage (1);
+			TakeDamage (20);
+			Destroy (other.gameObject);
 		}
 	}
-	void OnTriggerStay(Collider other) 
-	{
-		if (other.tag == "Bolt" && currentHealth >0)
-		{
-			TakeDamage (1);
-		}
-	}
+
 
 
 

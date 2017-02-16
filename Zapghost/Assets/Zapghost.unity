@@ -291,6 +291,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 15e5d7a5b23ff4ba982d48eda3ef9d44, type: 2}
+    - target: {fileID: 1542737983607448, guid: 913e5d043f82d4687b2d2e61e8b47440, type: 2}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 913e5d043f82d4687b2d2e61e8b47440, type: 2}
   m_IsPrefabParent: 0
