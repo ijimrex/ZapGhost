@@ -8,6 +8,7 @@ TagManager:
   - Character
   - Glove
   - Target
+  - Bolt
   layers:
   - Default
   - TransparentFX
