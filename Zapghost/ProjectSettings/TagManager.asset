@@ -8,6 +8,8 @@ TagManager:
   - Character
   - Glove
   - Target
+  - Bolt
+  - Monster
   layers:
   - Default
   - TransparentFX
