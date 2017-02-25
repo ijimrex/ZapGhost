@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Draggable.cs" />
      <Compile Include="Assets\Scripts\DropZone.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\MoneySystem.cs" />
      <Compile Include="Assets\Scripts\MonsterHealth.cs" />
      <Compile Include="Assets\Scripts\MonsterMovement.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
