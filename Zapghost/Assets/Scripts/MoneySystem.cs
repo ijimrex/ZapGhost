@@ -25,6 +25,7 @@ public class MoneySystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		moneyText.text = "Money: " + currentMoney.ToString ();
 //		MonsterHealth dead = (MonsterHealth) monster.GetComponent( typeof(MonsterHealth) ) ;
 ////		if (dead.isDead)
 ////			addMoney ();

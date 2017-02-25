@@ -7,14 +7,17 @@ public class Defender1 : MonoBehaviour {
 	public GameObject shot;
 	public Transform shotSpawn;
 	public float fireRate;
-	public GameObject money;
+//	public GameObject money;
+	private MoneySystem moneyManager;
 	private float nextFire;
 	private int decrease = 10;
 	// Use this for initialization
-
+	void Awake(){
+		
+	}
 	void Start () {
 		decreaseMoney();
-		fireRate = 0.5f;
+		fireRate = 0.1f;
 
 	}
 	
@@ -26,9 +29,11 @@ public class Defender1 : MonoBehaviour {
 		} 
 	}
 	void decreaseMoney(){
-		MoneySystem moneyvarable = (MoneySystem) money.GetComponent( typeof(MoneySystem) );
-		moneyvarable.currentMoney -= decrease;
-		moneyvarable.moneyText.text = "Money:" + moneyvarable.currentMoney.ToString ();
+//		MoneySystem moneyvarable = (MoneySystem) money.GetComponent( typeof(MoneySystem) );
+//		moneyvarable.currentMoney -= decrease;
+//		moneyvarable.moneyText.text = "Money:" + moneyvarable.currentMoney.ToString ();
+		moneyManager = GameObject.Find ("Money").GetComponent<MoneySystem> ();
+		moneyManager.currentMoney -= decrease;
 
 	} 
 }
