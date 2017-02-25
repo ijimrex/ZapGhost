@@ -10,17 +10,17 @@ public class Defender1 : MonoBehaviour {
 	public GameObject money;
 	private float nextFire;
 	private int decrease = 10;
+	private bool startFire = false;
 	// Use this for initialization
 
 	void Start () {
 		decreaseMoney();
 		fireRate = 0.5f;
-
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (Time.time > nextFire) {
+		if (Time.time > nextFire && startFire) {
 			nextFire = Time.time + fireRate;
 			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
 		} 
@@ -31,4 +31,8 @@ public class Defender1 : MonoBehaviour {
 		moneyvarable.moneyText.text = "Money:" + moneyvarable.currentMoney.ToString ();
 
 	} 
+
+	public void StartFire() {
+		startFire = true;
+	}
 }

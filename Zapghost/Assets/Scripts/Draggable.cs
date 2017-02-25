@@ -54,7 +54,8 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
             d.transform.SetParent(parentToReturnTo);
             Vector3 pos = parentToReturnTo.transform.position;
             d.transform.position = new Vector3(pos.x, pos.y + 5,pos.z);
-
+			Defender1 d1Script = d.GetComponent<Defender1> ();
+			d1Script.StartFire ();
         }
         else
         {
