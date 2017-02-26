@@ -54,10 +54,6 @@ public class MonsterHealth : MonoBehaviour
 	void addMoney(){
 		moneyManager = GameObject.Find ("Money").GetComponent<MoneySystem> ();
 		moneyManager.currentMoney += scoreValue;
-//		MoneySystem moneyvarable = (MoneySystem) money.GetComponent( typeof(MoneySystem) );
-//		moneyvarable.currentMoney += scoreValue;
-//		moneyvarable.moneyText.text = "Money: " + moneyvarable.currentMoney.ToString ();
-		
 	} 
 
 }
