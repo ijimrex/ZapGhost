@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour {
 
-	public float speed;
+	private float speed;
 	// Use this for initialization
 	void Start () {
-		speed = 5;
+		speed = 40;
 		GetComponent<Rigidbody> ().velocity = transform.forward * speed;
 	}
 }

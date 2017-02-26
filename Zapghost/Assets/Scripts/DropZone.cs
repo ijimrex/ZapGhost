@@ -3,14 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DropZone : MonoBehaviour,IDropHandler {
+public class DropZone : MonoBehaviour {
 
-	public void  OnDrop(PointerEventData evenData)
+    private bool isTriggered=false;
+
+	public void OnTriggerEnter(Collider collider)
     {
-        Draggable t = evenData.pointerDrag.GetComponent<Draggable>();
+        if (isTriggered || collider.tag != "Defender") return;
+        
+        isTriggered = true;
+        
+        Transform transform = collider.gameObject.transform.parent;
+        GameObject parent = transform.gameObject;//icon
+        Draggable t = parent.GetComponent<Draggable>();
+
         if (t != null)
         {
             t.parentToReturnTo = this.transform;
         }
+
+
     }
+
+
+    void Update()
+    {
+        isTriggered = false;
+    }
+
+
 }
