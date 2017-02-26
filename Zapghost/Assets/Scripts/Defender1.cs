@@ -18,12 +18,7 @@ public class Defender1 : MonoBehaviour {
 	}
 	void Start () {
 		decreaseMoney();
-<<<<<<< HEAD
-		fireRate = 0.1f;
-
-=======
 		fireRate = 0.5f;
->>>>>>> origin/master
 	}
 	
 	// Update is called once per frame
