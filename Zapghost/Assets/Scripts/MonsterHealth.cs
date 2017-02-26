@@ -2,7 +2,11 @@
 
 public class MonsterHealth : MonoBehaviour
 {
+<<<<<<< HEAD
 	public int startingHealth = 300;
+=======
+	public int startingHealth = 3000;
+>>>>>>> cb99587b1783b0023186bab311be7a643a732f11
 	public int currentHealth;
 	public int scoreValue = 10; // the score you will get when the Monster dead
 
@@ -54,10 +58,13 @@ public class MonsterHealth : MonoBehaviour
 	void addMoney(){
 		moneyManager = GameObject.Find ("Money").GetComponent<MoneySystem> ();
 		moneyManager.currentMoney += scoreValue;
+<<<<<<< HEAD
 //		MoneySystem moneyvarable = (MoneySystem) money.GetComponent( typeof(MoneySystem) );
 //		moneyvarable.currentMoney += scoreValue;
 //		moneyvarable.moneyText.text = "Money: " + moneyvarable.currentMoney.ToString ();
 		
+=======
+>>>>>>> cb99587b1783b0023186bab311be7a643a732f11
 	} 
 
 }

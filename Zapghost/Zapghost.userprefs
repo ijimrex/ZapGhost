@@ -1,8 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoneySystem.cs">
     <Files>
       <File FileName="Assets/Scripts/MoneySystem.cs" Line="30" Column="20" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MonsterHealth.cs" Line="5" Column="32" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="18" Column="39" />
+      <File FileName="Assets/Scripts/MonsterMovement.cs" Line="15" Column="38" />
+>>>>>>> cb99587b1783b0023186bab311be7a643a732f11
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

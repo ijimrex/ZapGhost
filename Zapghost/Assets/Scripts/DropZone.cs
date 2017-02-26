@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class DropZone : MonoBehaviour {
 
+<<<<<<< HEAD
     private bool isTriggered=false;
 
 	public void OnTriggerEnter(Collider collider)
@@ -16,6 +17,11 @@ public class DropZone : MonoBehaviour {
         Transform transform = collider.gameObject.transform.parent;
         GameObject parent = transform.gameObject;//icon
         Draggable t = parent.GetComponent<Draggable>();
+=======
+	public void OnTriggerEnter(Collider collider)
+    {
+        Draggable t = collider.gameObject.transform.parent.gameObject.GetComponent<Draggable>();
+>>>>>>> cb99587b1783b0023186bab311be7a643a732f11
 
         if (t != null)
         {
