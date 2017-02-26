@@ -19,6 +19,8 @@
 /Users/leijin/Documents/ZapGhost/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/leijin/Documents/ZapGhost/Zapghost/obj/Debug/Assembly-CSharp.dll
 /Users/leijin/Documents/ZapGhost/Zapghost/obj/Debug/Assembly-CSharp.dll.mdb
+<<<<<<< HEAD
+=======
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/savokisong/GitHub/ZapGhost/Zapghost/obj/Debug/Assembly-CSharp.dll
@@ -40,3 +42,4 @@
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+>>>>>>> cb99587b1783b0023186bab311be7a643a732f11

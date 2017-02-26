@@ -2,6 +2,7 @@
 
 public class MonsterHealth : MonoBehaviour
 {
+
 	public int startingHealth = 100;
 	private int currentHealth;
 	public int coin = 10; // the score you will get when the Monster dead
@@ -9,6 +10,7 @@ public class MonsterHealth : MonoBehaviour
 	private int takeDamage; // damage caused by defender
 
 	private BoltPower otherAttack; // store the bolt which attack monster
+
 
 	public bool isDead;
 	private MoneySystem moneyManager;
@@ -59,7 +61,9 @@ public class MonsterHealth : MonoBehaviour
 	}
 	void addMoney(){
 		moneyManager = GameObject.Find ("Money").GetComponent<MoneySystem> ();
+
 		moneyManager.currentMoney += coin;
+
 	} 
 
 }
