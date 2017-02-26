@@ -11,4 +11,11 @@ public class MonsterMovement : MonoBehaviour
 		transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
 
 	}
+
+	void OnTriggerEnter(Collider other) 
+	{
+		Debug.Log (other.name );
+	}
+
+
 }
