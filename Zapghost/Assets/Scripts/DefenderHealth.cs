@@ -5,11 +5,11 @@ using UnityEngine;
 public class DefenderHealth : MonoBehaviour {
 
 	public int startingHealth = 200;
-	public int currentHealth;
+	private int currentHealth;
 	public int cost = 10; // the score you will get when the Monster dead
-	public int takeDamage = 20; // the damage caused by per bolt
+	private int takeDamage; // the damage caused by per bolt
 	private MoneySystem money;
-
+	private MonsterHealth otherAttack; //the attack of the monster which attack the defender 
 	bool isDead;
 
 	void Awake ()
@@ -35,6 +35,8 @@ public class DefenderHealth : MonoBehaviour {
 	{
 		if (other.tag == "Monster" && currentHealth >0)
 		{
+			otherAttack = other.gameObject.GetComponent<MonsterHealth>();
+			takeDamage = otherAttack.power;
 			TakeDamage (takeDamage);
 		}
 	}
