@@ -2,7 +2,7 @@
 
 public class MonsterHealth : MonoBehaviour
 {
-	public int startingHealth = 300;
+	public int startingHealth = 3000;
 	public int currentHealth;
 	public int scoreValue = 10; // the score you will get when the Monster dead
 
