@@ -7,9 +7,14 @@ public class DefenderHealth : MonoBehaviour {
 	public int startingHealth = 200;
 	private int currentHealth;
 	private int takeDamage; // the damage caused by per bolt
+	Defender defScript;
 	private MoneySystem money;
 	private MonsterHealth otherAttack; //the attack of the monster which attack the defender 
 	bool isDead;
+
+	void Awake() {
+		defScript = GetComponent<Defender> ();
+	}
 
 	void Start ()
 	{
@@ -35,6 +40,9 @@ public class DefenderHealth : MonoBehaviour {
 
 	public void TakeDamage (int amount)
 	{
+		if (!defScript.placed)
+			return;
+		
 		if (isDead) {
 			return;
 		}

@@ -620,7 +620,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4409905124699130}
-  fireRate: 0.5
+  fireRate: 2
+  placed: 0
 --- !u!114 &114100665520417710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -632,8 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d564bbe481684219a3730022d937959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
-  cost: 50
+  startingHealth: 1000
 --- !u!114 &114442458938178134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -645,8 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d564bbe481684219a3730022d937959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
-  cost: 100
+  startingHealth: 1000
 --- !u!114 &114564054425166052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -660,7 +659,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4122716977639508}
-  fireRate: 1.5
+  fireRate: 3
+  placed: 0
 --- !u!114 &114690686609334902
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -674,7 +674,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4342089292670654}
-  fireRate: 1
+  fireRate: 2.5
+  placed: 0
 --- !u!114 &114826171539540000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -688,7 +689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4585888195934546}
-  fireRate: 2.5
+  fireRate: 3.5
+  placed: 0
 --- !u!114 &114899688442560084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -700,8 +702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d564bbe481684219a3730022d937959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
-  cost: 150
+  startingHealth: 1000
 --- !u!114 &114995282218423156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -713,5 +714,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d564bbe481684219a3730022d937959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
-  cost: 200
+  startingHealth: 1000

@@ -49,7 +49,9 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 
     public void OnDrag(PointerEventData eventData)
     {
-        
+		if (d == null)
+			return;
+	
         clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(clickRay, out clickPoint))
         {
@@ -66,6 +68,8 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 
     public void OnEndDrag(PointerEventData eventData)
     {
+		if (d == null)
+			return;
         
         if (Physics.Raycast(clickRay, out clickPoint) && parentToReturnTo.childCount == 0)
         {
@@ -74,8 +78,9 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
             Vector3 pos = parentToReturnTo.transform.position;
             d.transform.position = new Vector3(pos.x, pos.y + 5,pos.z);
 			Cost ();
-			Defender d1Script = d.GetComponent<Defender> ();
-			d1Script.StartFire ();
+			Defender defClass = d.GetComponent<Defender> ();
+			defClass.StartFire ();
+			defClass.Place ();
         }
         else
         {
