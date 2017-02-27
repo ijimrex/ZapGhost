@@ -19,8 +19,6 @@
 /Users/leijin/Documents/ZapGhost/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/leijin/Documents/ZapGhost/Zapghost/obj/Debug/Assembly-CSharp.dll
 /Users/leijin/Documents/ZapGhost/Zapghost/obj/Debug/Assembly-CSharp.dll.mdb
-<<<<<<< HEAD
-=======
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll
 /Users/savokisong/GitHub/ZapGhost/Zapghost/obj/Debug/Assembly-CSharp.dll
@@ -42,4 +40,24 @@
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/savokisong/GitHub/ZapGhost/Zapghost/Temp/bin/Debug/Mono.Cecil.Mdb.dll
->>>>>>> cb99587b1783b0023186bab311be7a643a732f11
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/obj/Debug/Assembly-CSharp.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEditor.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Mono.Cecil.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Unity.DataContract.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/savokisong/Desktop/ZAPhostBackup/untitled folder/Zapghost/Temp/bin/Debug/Assembly-CSharp.dll

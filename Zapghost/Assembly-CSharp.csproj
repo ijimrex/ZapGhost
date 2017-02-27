@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoltPower.cs" />
-     <Compile Include="Assets\Scripts\Defender.cs" />
      <Compile Include="Assets\Scripts\Defender1.cs" />
      <Compile Include="Assets\Scripts\DefenderHealth.cs" />
      <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
@@ -55,7 +54,6 @@
      <Compile Include="Assets\Scripts\DropZone.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\MoneySystem.cs" />
-     <Compile Include="Assets\Scripts\Monster1Movement.cs" />
      <Compile Include="Assets\Scripts\MonsterHealth.cs" />
      <Compile Include="Assets\Scripts\MonsterMovement.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />

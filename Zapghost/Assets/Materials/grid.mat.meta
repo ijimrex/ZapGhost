@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Zapghost/Assets/Prefabs/Canvas.prefab.meta
-guid: a9e26daad76a7c44e8c8cfde5f6a81ba
-timeCreated: 1487917043
-=======
 guid: 34c720f2b0f2ba749af528aaa2cfbaea
 timeCreated: 1487380871
->>>>>>> cb99587b1783b0023186bab311be7a643a732f11:Zapghost/Assets/Materials/grid.mat.meta
 licenseType: Free
 NativeFormatImporter:
   userData: 

@@ -7,6 +7,7 @@ public class MoneySystem : MonoBehaviour {
 	public int currentMoney;
 	public int startMoney = 100;
 	public Text moneyText;
+	public int blood = 200; // the blood of the player
 //	public GameObject monster;
 
 //	bool dead=monster.GetComponent<MonsterHealth>();
@@ -31,7 +32,6 @@ public class MoneySystem : MonoBehaviour {
 ////			addMoney ();
 //
 //		moneyText.text = "Money: " + dead.currentHealth.ToString();
-		
 	}
 
 //	void addMoney(){
