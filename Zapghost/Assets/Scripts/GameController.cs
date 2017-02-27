@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class GameController : MonoBehaviour
 	public int monster3Num;
 
 	private int len; // the max number of monster
+	public int deadMonsterNum = 0; 
 	public float spawnWait;
 	public float startWait;
 	public float waveWait;
@@ -34,13 +36,18 @@ public class GameController : MonoBehaviour
 		StartCoroutine(SpawnWaves ());
 	}
 
+	void Update() {
+		if (deadMonsterNum == len) {
+			SceneManager.LoadScene("WinGame");
+		}
+	}
 	IEnumerator SpawnWaves ()
 	{    
 		yield return new WaitForSeconds (startWait);
 		for (int i = 0; i < len; i++) {
 			
 			//monster
-			if (i <= monsterNum) {
+			if (i < monsterNum) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
 				Instantiate (Monster, spawnPosition, spawnRotation);
@@ -49,7 +56,7 @@ public class GameController : MonoBehaviour
 
 
 			//monster1
-			if (i <= monster1Num) {
+			if (i < monster1Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
 				Instantiate (Monster1, spawnPosition, spawnRotation);
@@ -58,7 +65,7 @@ public class GameController : MonoBehaviour
 
 
 			//monster2
-			if (i <= monster2Num) {
+			if (i < monster2Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
 				Instantiate (Monster2, spawnPosition, spawnRotation);
@@ -67,7 +74,7 @@ public class GameController : MonoBehaviour
 
 
 			//monster3
-			if (i <= monster3Num) {
+			if (i < monster3Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
 				Instantiate (Monster3, spawnPosition, spawnRotation);

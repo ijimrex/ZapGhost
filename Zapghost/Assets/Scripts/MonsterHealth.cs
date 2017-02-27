@@ -52,6 +52,7 @@ public class MonsterHealth : MonoBehaviour
 	{
 		isDead = true;
 		addMoney ();
+		GameObject.Find ("GameController").GetComponent<GameController> ().deadMonsterNum ++;
 
 		Destroy (gameObject);
 
