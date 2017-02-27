@@ -5,14 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+    public GameObject MenuPanel, AboutPanel;
+
     public void StartGame()
     {
         SceneManager.LoadScene("Level1");
 
     }
 
-    public void Quit()
+    //public void Quit()
+    //{
+    //    Application.Quit();
+    //}
+
+    public void About()
     {
-        Application.Quit();
+        MenuPanel.SetActive(false);
+        AboutPanel.SetActive(true);
+        
+
+    }
+
+    public void returnMenu()
+    {
+        MenuPanel.SetActive(true);
+        AboutPanel.SetActive(false);
+       
+
     }
 }
