@@ -28,6 +28,7 @@ public class DefenderHealth : MonoBehaviour {
 			TakeDamage (takeDamage);
 		}
 	}
+
 	void OnTriggerStay(Collider other) 
 	{
 		if (other.tag == "Monster" && currentHealth >0)

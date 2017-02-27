@@ -14,7 +14,6 @@ public class Defender : MonoBehaviour {
 
 	void Awake() {
 		rigid = GetComponent<Rigidbody> ();
-		rigid.detectCollisions = false;
 	}
 
 	// Update is called once per frame
@@ -31,7 +30,6 @@ public class Defender : MonoBehaviour {
 
 	public void Place() {
 		placed = true;
-		rigid.detectCollisions = true;
 	}
 
 }
