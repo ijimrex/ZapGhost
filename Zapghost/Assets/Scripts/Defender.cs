@@ -10,11 +10,11 @@ public class Defender : MonoBehaviour {
 	public bool placed = false;
 	private float nextFire;
 	private bool startFire = false;
-	
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		if (Time.time > nextFire && startFire) {
-			nextFire = Time.time + fireRate;
+			nextFire = Time.time + 1.0f/fireRate;
 			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
 		} 
 	}
