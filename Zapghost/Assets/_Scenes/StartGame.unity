@@ -218,12 +218,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 349676193}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.8516508, y: -0.14454396, z: 0.39713123, w: 0.30997556}
+  m_LocalPosition: {x: -1244, y: 20, z: 2404}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &435385443
 GameObject:
@@ -421,6 +422,9 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 467281504}
+=======
+  m_LocalEulerAnglesHint: {x: 140, y: -50, z: 0}
+>>>>>>> 9c8644069139ee5ed178049d38ef0c3e2a6ca09c
 --- !u!1 &517856164
 GameObject:
   m_ObjectHideFlags: 0
