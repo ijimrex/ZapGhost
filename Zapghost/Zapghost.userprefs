@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Draggable.cs">
     <Files>
-      <File FileName="Assets/Scripts/MoneySystem.cs" Line="10" Column="27" />
-      <File FileName="Assets/Scripts/MonsterHealth.cs" Line="61" Column="36" />
+      <File FileName="Assets/Scripts/DropZone.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/GameController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DestroyByBoundary.cs" Line="20" Column="45" />
-      <File FileName="Assets/Scripts/Draggable.cs" Line="18" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMovement.cs" Line="14" Column="2" />
+      <File FileName="Assets/Scripts/MonsterHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MonsterMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DefenderHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/DestroyByBoundary.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Defender1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Draggable.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
