@@ -7,6 +7,7 @@ public class Defender1 : MonoBehaviour {
 	public GameObject shot;
 	public Transform shotSpawn;
 	public float fireRate = 0.5f;
+	public bool placed = false;
 	private float nextFire;
 	private bool startFire = false;
 	

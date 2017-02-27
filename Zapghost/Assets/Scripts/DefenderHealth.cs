@@ -6,7 +6,6 @@ public class DefenderHealth : MonoBehaviour {
 
 	public int startingHealth = 200;
 	private int currentHealth;
-	public int cost = 10; // the score you will get when the Monster dead
 	private int takeDamage; // the damage caused by per bolt
 	private MoneySystem money;
 	private MonsterHealth otherAttack; //the attack of the monster which attack the defender 
