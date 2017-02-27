@@ -12,16 +12,9 @@ public class DefenderHealth : MonoBehaviour {
 	private MonsterHealth otherAttack; //the attack of the monster which attack the defender 
 	bool isDead;
 
-	void Awake ()
+	void Start ()
 	{
 		currentHealth = startingHealth;
-
-	}
-
-	// Use this for initialization
-	void Start () {
-		money = GameObject.Find("Money").GetComponent<MoneySystem> ();
-		money.currentMoney -= cost;
 	}
 
 	void OnTriggerEnter(Collider other) 
@@ -59,11 +52,6 @@ public class DefenderHealth : MonoBehaviour {
 	{   
 		isDead = true;
 		Destroy (gameObject);
-
 	}
-
-
-
-
 
 }

@@ -17,7 +17,6 @@ public class MonsterHealth : MonoBehaviour
 
 	void Awake ()
 	{
-
 		currentHealth = startingHealth;
 	}
 

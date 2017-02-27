@@ -24,10 +24,15 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        parentToReturnTo = this.transform;
-        GetComponent<CanvasGroup>().blocksRaycasts = false;
-        d = (GameObject) Instantiate(Defender1, transform.position, transform.rotation);
-        d.transform.SetParent(parentToReturnTo);
+		if (Affordable ()) {
+			parentToReturnTo = this.transform;
+			GetComponent<CanvasGroup> ().blocksRaycasts = false;
+			d = (GameObject)Instantiate (Defender1, transform.position, transform.rotation);
+			d.transform.SetParent (parentToReturnTo);
+		} else {
+			// give information about cannot get this defender
+
+		}
     }
 
 	private Boolean Affordable() {
@@ -35,6 +40,9 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 	}
 
 	private void Cost() {
+		if (moneyManager.currentMoney < cost) {
+			//give the exception message to users
+		}
 		moneyManager.currentMoney -= cost;
 	}
    
@@ -48,7 +56,6 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
             Physics.Raycast(clickRay, out posPoint, Mathf.Infinity, mask.value);
             Vector3 mouseMove = posPoint.point;
             d.transform.position = (new Vector3(mouseMove.x, (plane.transform.position.y + 5), mouseMove.z));
-            Debug.Log("mousemove"+mouseMove);
         }
         else
         {
