@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Defender1 : MonoBehaviour {
+public class Defender : MonoBehaviour {
 
 	public GameObject shot;
 	public Transform shotSpawn;

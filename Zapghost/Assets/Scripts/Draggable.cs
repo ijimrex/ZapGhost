@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHandler{
-    public GameObject Defender;
+    public GameObject defObj;
     public GameObject plane;
 	public int cost = 10;
 
@@ -27,7 +27,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 		if (Affordable ()) {
 			parentToReturnTo = this.transform;
 			GetComponent<CanvasGroup> ().blocksRaycasts = false;
-			d = (GameObject)Instantiate (Defender, transform.position, transform.rotation);
+			d = (GameObject)Instantiate (defObj, transform.position, transform.rotation);
 			d.transform.SetParent (parentToReturnTo);
 		} else {
 			// give information about cannot get this defender
@@ -74,7 +74,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
             Vector3 pos = parentToReturnTo.transform.position;
             d.transform.position = new Vector3(pos.x, pos.y + 5,pos.z);
 			Cost ();
-			Defender1 d1Script = d.GetComponent<Defender1> ();
+			Defender d1Script = d.GetComponent<Defender> ();
 			d1Script.StartFire ();
         }
         else
