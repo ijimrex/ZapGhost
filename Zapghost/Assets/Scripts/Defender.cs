@@ -10,6 +10,12 @@ public class Defender : MonoBehaviour {
 	public bool placed = false;
 	private float nextFire;
 	private bool startFire = false;
+	private Rigidbody rigid;
+
+	void Awake() {
+		rigid = GetComponent<Rigidbody> ();
+		rigid.detectCollisions = false;
+	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -25,5 +31,7 @@ public class Defender : MonoBehaviour {
 
 	public void Place() {
 		placed = true;
+		rigid.detectCollisions = true;
 	}
+
 }
