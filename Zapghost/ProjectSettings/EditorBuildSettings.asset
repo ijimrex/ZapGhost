@@ -6,12 +6,4 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/StartGame.unity
-  - enabled: 1
-    path: Assets/_Scenes/Level1.unity
-  - enabled: 0
-    path: Assets/_Scenes/EndGame.unity
-  - enabled: 1
-    path: Assets/_Scenes/LostGame.unity
-  - enabled: 1
-    path: Assets/_Scenes/WinGame.unity
+    path: Assets/ARToolKit5-Unity/Example Scenes/CubemarkerScene.unity
