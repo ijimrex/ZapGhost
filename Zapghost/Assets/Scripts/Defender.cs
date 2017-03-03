@@ -18,9 +18,11 @@ public class Defender : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (Time.time > nextFire && startFire) {
+        if (Time.time > nextFire) {
 			nextFire = Time.time + 1.0f/fireRate;
-			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
+            Debug.Log("Create shot");
+
+			Instantiate (shot, shotSpawn.position, Quaternion.Euler(shotSpawn.rotation.x, shotSpawn.rotation.y, shotSpawn.rotation.z));
 		} 
 	}
 
