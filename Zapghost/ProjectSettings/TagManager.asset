@@ -8,6 +8,9 @@ TagManager:
   - Character
   - Glove
   - Target
+  - Monster
+  - Defender
+  - Bolt
   layers:
   - Default
   - TransparentFX
@@ -20,7 +23,7 @@ TagManager:
   - AR background
   - AR background 2
   - AR foreground
-  - 
+  - Text
   - 
   - 
   - 
