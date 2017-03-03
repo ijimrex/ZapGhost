@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Item Database
-  - Defender
-  - Bolt
-  - Monster
+  - Floor
+  - Character
+  - Glove
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -17,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - ground
-  - 
-  - 
+  - AR background
+  - AR background 2
+  - AR foreground
   - 
   - 
   - 

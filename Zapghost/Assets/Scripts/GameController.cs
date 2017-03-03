@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
 	public GameObject Monster1;
 	public GameObject Monster2;
 	public GameObject Monster3;
+	private Transform MonsterParent;
 	public Vector3 spawnValues;
 	public int monsterNum;
 	public int monster1Num;
@@ -21,21 +22,28 @@ public class GameController : MonoBehaviour
 	public float startWait;
 	public float waveWait;
 
-	private int GetRandom(int[] arr){
+	private float GetRandom(float[] arr){
 		int n = Random.Range(0, arr.Length - 1);
 
 		return arr[n];
 	}
-	int[] Location = { -40, -20, 0, 20, 40, 60 };
+	float[] Location = { -0.4f, -0.2f, 0, 0.2f, 0.4f, 0.6f };
 
 
 	void Start ()
 	{
+<<<<<<< HEAD
         //Debug.Log("Start spawn waves" + monster1Num.ToString() + "," + monster2Num.ToString());
+=======
+		
+        Debug.Log("Start spawn waves" + monster1Num.ToString() + "," + monster2Num.ToString());
+>>>>>>> 66423844735d1312211e487627ae44e9e796a4dc
 		int[] arr = { monsterNum, monster1Num, monster2Num, monster3Num };
 		System.Array.Sort (arr);
 		len = arr[arr.Length - 1];
 		totalNum = monsterNum + monster1Num + monster2Num + monster3Num;
+		GameObject temp = GameObject.Find ("All");
+		MonsterParent = temp.transform;
         //cannot start coroutine for the second time
 		StartCoroutine(SpawnWaves ());
 	}
@@ -54,7 +62,8 @@ public class GameController : MonoBehaviour
 			if (i < monsterNum) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
-				Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
 
@@ -63,7 +72,8 @@ public class GameController : MonoBehaviour
 			if (i < monster1Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
-				Instantiate (Monster1, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
 
@@ -72,7 +82,8 @@ public class GameController : MonoBehaviour
 			if (i < monster2Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
-				Instantiate (Monster2, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
 
@@ -81,7 +92,8 @@ public class GameController : MonoBehaviour
 			if (i < monster3Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				Quaternion spawnRotation = Quaternion.identity;
-				Instantiate (Monster3, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				obj.transform.SetParent (MonsterParent);
 			}
 
 

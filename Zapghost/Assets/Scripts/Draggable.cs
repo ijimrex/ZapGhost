@@ -12,7 +12,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 	private GameObject d;
 	private MoneySystem moneyManager;
 
-    LayerMask mask = 1 << 8;
+    LayerMask mask = 1 << 10;
     Ray clickRay;
     RaycastHit posPoint;
     RaycastHit clickPoint;
@@ -60,7 +60,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
         {
             Physics.Raycast(clickRay, out posPoint, Mathf.Infinity, mask.value);
             Vector3 mouseMove = posPoint.point;
-            d.transform.position = (new Vector3(mouseMove.x, (plane.transform.position.y + 5), mouseMove.z));
+			d.transform.position = (new Vector3(mouseMove.x,mouseMove.y,(plane.transform.position.z)));
         }
         else
         {
@@ -79,9 +79,13 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
             
             d.transform.SetParent(parentToReturnTo);
             Vector3 pos = parentToReturnTo.transform.position;
+<<<<<<< HEAD
             Debug.Log(d.GetComponent<Collider>().bounds.size);
             
             d.transform.position = new Vector3(pos.x, pos.y+(d.GetComponent<Collider>().bounds.size.y) /2, pos.z);
+=======
+            d.transform.position = new Vector3(pos.x, pos.y ,pos.z - 0.04f);
+>>>>>>> 66423844735d1312211e487627ae44e9e796a4dc
 			Cost ();
 			Defender defClass = d.GetComponent<Defender> ();
 			defClass.StartFire ();
