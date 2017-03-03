@@ -75,8 +75,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Chibi Mummy\Scripts\anims_controls.cs" />
-    <Compile Include="Assets\Chibi Mummy\Scripts\control_script.cs" />
     <Compile Include="Assets\Scripts\BoltPower.cs" />
     <Compile Include="Assets\Scripts\Defender.cs" />
     <Compile Include="Assets\Scripts\DefenderHealth.cs" />
@@ -91,10 +89,6 @@
     <Compile Include="Assets\Scripts\MonsterMovement.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
-    <Compile Include="Assets\Scripts\ResultController.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Chibi Mummy\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -18,11 +18,10 @@ public class Defender : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-        if (Time.time > nextFire) {
+		if (Time.time > nextFire && startFire) {
 			nextFire = Time.time + 1.0f/fireRate;
-            Debug.Log("Create shot");
-
-			Instantiate (shot, shotSpawn.position, Quaternion.Euler(shotSpawn.rotation.x, shotSpawn.rotation.y, shotSpawn.rotation.z));
+			GameObject bolt = Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
+			bolt.transform.Rotate (new Vector3(0, 90,-90));
 		} 
 	}
 

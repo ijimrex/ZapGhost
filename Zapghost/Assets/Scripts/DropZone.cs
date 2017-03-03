@@ -8,7 +8,9 @@ public class DropZone : MonoBehaviour {
 	private bool isTriggered=false;
 
 	public void OnTriggerEnter(Collider collider)
+
     {
+		//Debug.Log ("collider");
 		if (isTriggered || collider.tag != "Defender") return;
 
 		isTriggered = true;
