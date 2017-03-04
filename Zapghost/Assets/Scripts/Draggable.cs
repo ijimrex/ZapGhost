@@ -27,14 +27,11 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 		if (Affordable ()) {
 			parentToReturnTo = this.transform;
 			GetComponent<CanvasGroup> ().blocksRaycasts = false;
-			Vector3 temp = transform.rotation.eulerAngles;
-			temp.y = 90f;
-			temp.z = -90f;
-			temp.x = -180f;
-			d = (GameObject)Instantiate (defObj, transform.position, Quaternion.Euler(temp));
-			//d = (GameObject)Instantiate (defObj, transform.position, transform.rotation);
+            Vector3 temp = transform.rotation.eulerAngles;
+            temp.y = -90.0f;
+            d = (GameObject)Instantiate (defObj, transform.position, Quaternion.Euler(temp));
+            //Debug.Log(d);
 			d.transform.SetParent (parentToReturnTo);
-			//Debug.Log ("copy");
 		} else {
 			// give information about cannot get this defender
 
@@ -82,7 +79,9 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
             
             d.transform.SetParent(parentToReturnTo);
             Vector3 pos = parentToReturnTo.transform.position;
-            d.transform.position = new Vector3(pos.x, pos.y ,pos.z - 0.04f);
+            Debug.Log(d.GetComponent<Collider>().bounds.size);
+            d.transform.position = new Vector3(pos.x, pos.y+(d.GetComponent<Collider>().bounds.size.y) /2, pos.z);
+//            d.transform.position = new Vector3(pos.x, pos.y ,pos.z - 0.04f);
 			Cost ();
 			Defender defClass = d.GetComponent<Defender> ();
 			defClass.StartFire ();

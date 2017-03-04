@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4143892542801954}
   - component: {fileID: 33021294044534530}
   - component: {fileID: 23116694069493080}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: axle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114569039488097662}
   - component: {fileID: 114629866936069686}
   - component: {fileID: 65877128199340960}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: attackBot
   m_TagString: Defender
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 4497643496380800}
   - component: {fileID: 33059720108277356}
   - component: {fileID: 23260071137010464}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: leftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 4720084742497776}
   - component: {fileID: 33910746126211790}
   - component: {fileID: 23697348442871594}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: botBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 4132137521374934}
   - component: {fileID: 33300081261993198}
   - component: {fileID: 23820930313502746}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: rightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 4801141733076148}
   - component: {fileID: 33481064195265372}
   - component: {fileID: 23166582963234964}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: guns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,9 +148,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1695229989243110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 10.9, y: 12.1, z: 22.6}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 4143892542801954}
   - {fileID: 4720084742497776}
@@ -158,7 +158,7 @@ Transform:
   - {fileID: 4132137521374934}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &4497643496380800
 Transform:
   m_ObjectHideFlags: 1
@@ -414,8 +414,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.08, y: 0.07, z: 0.07}
-  m_Center: {x: 0.02, y: 0.02, z: 0}
+  m_Size: {x: 0.05, y: 0.07, z: 0.1}
+  m_Center: {x: 0, y: 0.02, z: 0}
 --- !u!95 &95259561398241798
 Animator:
   serializedVersion: 3

@@ -62,10 +62,11 @@
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
+     <None Include="Assets\Chibi Mummy\readme.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/leijin/Documents/ZapGhost/Zapghost/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/Martin/Documents/martin/github/Zapghost/Zapghost/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -121,6 +122,9 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
@@ -130,10 +134,6 @@
  <Reference Include="UnityEditor.iOS.Extensions.Common">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{0AA32B9E-45CA-8F74-E625-1CA845771558}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
