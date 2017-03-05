@@ -119,12 +119,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f24221cb8464f5bab05bd48a9cf6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Monster: {fileID: 1886611981952412, guid: 913e5d043f82d4687b2d2e61e8b47440, type: 2}
-  Monster1: {fileID: 1618544605852638, guid: 8fe212884f50d42d1bd7c336a64ff4da, type: 2}
-  Monster2: {fileID: 1807406358385206, guid: 5bf89f85bb76e4cb49779dac4dbbcd51, type: 2}
-  Monster3: {fileID: 1599956650278014, guid: c61cbe24df02a41c19434feec044b0a2, type: 2}
-  spawnValues: {x: 0, y: 0, z: -0.04}
-  monsterNum: 1
+  Monster: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
+  Monster1: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
+  Monster2: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
+  Monster3: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
+  spawnValues: {x: 0, y: 1, z: -0}
+  monsterNum: 8
   monster1Num: 1
   monster2Num: 1
   monster3Num: 0
@@ -704,7 +704,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 5120
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a3a9b529d7b49fdb491e7be3a4a023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 100
+  startHealth: 1000000
   healthText: {fileID: 549040723}
   currentHealth: 0
 --- !u!1001 &806662032
@@ -3291,7 +3291,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1519585070}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 1, z: 20}
   m_Children: []
