@@ -1,21 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARToolKit5-Unity/Scripts/ARController.cs">
-    <Files>
-      <File FileName="Assets/Scripts/Draggable.cs" Line="32" Column="16" />
-      <File FileName="Assets/ARToolKit5-Unity/Scripts/PluginFunctions.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DropZone.cs" Line="1" Column="1" />
-      <File FileName="Assets/ARToolKit5-Unity/Scripts/ARController.cs" Line="1632" Column="1" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Draggable.cs">
-    <Files>
-      <File FileName="Assets/Scripts/GameController.cs" Line="29" Column="3" />
-      <File FileName="Assets/Scripts/Draggable.cs" Line="82" Column="1" />
-      <File FileName="Assets/Scripts/MonsterMovement.cs" Line="11" Column="39" />
->>>>>>> 0e02eaa781a318f5d84d449f95e2add9931b76c2
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

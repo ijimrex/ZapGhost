@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\ResultController.cs" />
+     <Compile Include="Assets\Scripts\TextRolling.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
