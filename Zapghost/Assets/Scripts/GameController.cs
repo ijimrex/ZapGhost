@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 	public GameObject Monster1;
 	public GameObject Monster2;
 	public GameObject Monster3;
+	private Transform world;
+	private Quaternion spawnRotation;
 	private Transform MonsterParent;
 	public Vector3 spawnValues;
 	public int monsterNum;
@@ -27,7 +29,18 @@ public class GameController : MonoBehaviour
 
 		return arr[n];
 	}
-	float[] Location = { -0.4f, -0.2f, 0, 0.2f, 0.4f, 0.6f };
+	float[] Location = new float[5];
+	//int[] Location = { -40, -20, 0, 20, 40, 60 };
+	void Awake () {
+		Location [0] = GameObject.Find ("Grid0").transform.position.x;
+		Location [1] = GameObject.Find ("Grid1").transform.position.x;
+		Location [2] = GameObject.Find ("Grid2").transform.position.x;
+		Location [3] = GameObject.Find ("Grid3").transform.position.x;
+		Location [4] = GameObject.Find ("Grid4").transform.position.x;
+		world = GameObject.Find ("All").transform;
+		spawnRotation = world.localRotation;
+	}
+		
 
 
 	void Start ()
@@ -57,7 +70,6 @@ public class GameController : MonoBehaviour
 			//monster
 			if (i < monsterNum) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				Quaternion spawnRotation = Quaternion.identity;
 				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
@@ -67,7 +79,6 @@ public class GameController : MonoBehaviour
 			//monster1
 			if (i < monster1Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				Quaternion spawnRotation = Quaternion.identity;
 				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
@@ -77,7 +88,6 @@ public class GameController : MonoBehaviour
 			//monster2
 			if (i < monster2Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				Quaternion spawnRotation = Quaternion.identity;
 				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
@@ -87,7 +97,6 @@ public class GameController : MonoBehaviour
 			//monster3
 			if (i < monster3Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				Quaternion spawnRotation = Quaternion.identity;
 				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 			}
