@@ -46,31 +46,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARCameraEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARControllerEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARMarkerEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\AROriginEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitMenuEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitPackager.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitPostProcessor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraGizmo.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectEditor.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectGizmo.cs" />
-     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTransitionalCameraEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARCameraEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARControllerEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARMarkerEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\AROriginEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARToolKitMenuEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARToolKitPackager.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARToolKitPostProcessor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraGizmo.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectEditor.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectGizmo.cs" />
+     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTransitionalCameraEditor.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
-     <None Include="Assets\Chibi Mummy\readme.txt" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
-     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
+     <None Include="Assets\Resources\ARToolKit5-Unity\CHANGELOG.txt" />
+     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
+     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
+     <None Include="Assets\Resources\Chibi Mummy\readme.txt" />
+     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
+     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
  <Reference Include="Assembly-UnityScript">
-<<<<<<< HEAD
  <HintPath>/Users/Martin/Documents/martin/github/Zapghost/Zapghost/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
-=======
- <HintPath>/Users/savokisong/GitHub/ZapGhost/Zapghost/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
->>>>>>> d1ca0c036f6ef27c10e21c214b5deb16dd8a0151
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -86,12 +82,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.PlaymodeTestsRunner">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/Editor/UnityEditor.PlaymodeTestsRunner.dll</HintPath>
@@ -119,6 +109,12 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
