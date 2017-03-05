@@ -25,7 +25,7 @@ public class GameController : MonoBehaviour
 	public float waveWait;
 
 	private float GetRandom(float[] arr){
-		int n = Random.Range(0, arr.Length - 1);
+		int n = Random.Range(0, arr.Length);
 
 		return arr[n];
 	}
