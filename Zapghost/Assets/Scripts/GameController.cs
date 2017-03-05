@@ -79,7 +79,7 @@ public class GameController : MonoBehaviour
 			//monster1
 			if (i < monster1Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster1, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
@@ -88,7 +88,7 @@ public class GameController : MonoBehaviour
 			//monster2
 			if (i < monster2Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster2, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
@@ -97,7 +97,7 @@ public class GameController : MonoBehaviour
 			//monster3
 			if (i < monster3Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster3, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 			}
 

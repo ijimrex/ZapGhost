@@ -119,15 +119,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f24221cb8464f5bab05bd48a9cf6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Monster: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
-  Monster1: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
-  Monster2: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
-  Monster3: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
+  Monster: {fileID: 1534967848673940, guid: a54d9db4001d340558bf862661baad79, type: 2}
+  Monster1: {fileID: 1534967848673940, guid: a54d9db4001d340558bf862661baad79, type: 2}
+  Monster2: {fileID: 1534967848673940, guid: a54d9db4001d340558bf862661baad79, type: 2}
+  Monster3: {fileID: 1534967848673940, guid: a54d9db4001d340558bf862661baad79, type: 2}
   spawnValues: {x: 0, y: 1, z: -0}
   monsterNum: 8
-  monster1Num: 1
-  monster2Num: 1
-  monster3Num: 0
+  monster1Num: 6
+  monster2Num: 4
+  monster3Num: 6
   deadMonsterNum: 0
   spawnWait: 2
   startWait: 1

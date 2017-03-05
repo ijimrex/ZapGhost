@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\ResultController.cs" />
      <Compile Include="Assets\Scripts\TextRolling.cs" />
+     <Compile Include="Assets\cha_data\Script\ScreenShot.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Resources\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\Resources\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
@@ -93,6 +94,9 @@
      <None Include="Assets\Resources\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.PlaymodeTestsRunner">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
@@ -105,9 +109,6 @@
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
