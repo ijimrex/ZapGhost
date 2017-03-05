@@ -10,11 +10,6 @@ public class Defender : MonoBehaviour {
 	public bool placed = false;
 	private float nextFire;
 	private bool startFire = false;
-	private Rigidbody rigid;
-
-	void Awake() {
-		rigid = GetComponent<Rigidbody> ();
-	}
 
 	// Update is called once per frame
 	void FixedUpdate () {

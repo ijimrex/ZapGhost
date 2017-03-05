@@ -6,11 +6,11 @@ using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragHandler{
     public GameObject defObj;
-    public GameObject plane;
 	public int cost = 10;
 
 	private GameObject d;
 	private MoneySystem moneyManager;
+	private GameObject plane;
 
     LayerMask mask = 1 << 10;
     Ray clickRay;
@@ -18,7 +18,9 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
     RaycastHit clickPoint;
     public Transform parentToReturnTo = null;
 
-	void Start() {
+
+	void Awake() {
+		plane = GameObject.Find ("Plane");
 		moneyManager = GameObject.Find ("Money").GetComponent<MoneySystem> ();
 	}
 
@@ -34,7 +36,6 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 			d = (GameObject)Instantiate (defObj, transform.position, Quaternion.Euler(temp));
 			//d = (GameObject)Instantiate (defObj, transform.position, transform.rotation);
 			d.transform.SetParent (parentToReturnTo);
-			//Debug.Log ("copy");
 		} else {
 			// give information about cannot get this defender
 
@@ -76,10 +77,11 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
     {
 		if (d == null)
 			return;
-        
+		Debug.Log (Physics.Raycast (clickRay, out clickPoint));
+		Debug.Log (parentToReturnTo.gameObject.name);
+		Debug.Log (parentToReturnTo.childCount);
         if (Physics.Raycast(clickRay, out clickPoint) && parentToReturnTo.childCount == 0)
         {
-            
             d.transform.SetParent(parentToReturnTo);
             Vector3 pos = parentToReturnTo.transform.position;
             d.transform.position = new Vector3(pos.x, pos.y ,pos.z - 0.04f);
@@ -87,6 +89,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 			Defender defClass = d.GetComponent<Defender> ();
 			defClass.StartFire ();
 			defClass.Place ();
+			Debug.Log ("Test 3");
         }
         else
         {

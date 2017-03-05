@@ -59,14 +59,13 @@ public class GameController : MonoBehaviour
 
 	void Update() {
 		if (deadMonsterNum == totalNum) {
-			SceneManager.LoadScene("WinGame");
+			//SceneManager.LoadScene("WinGame");
 		}
 	}
 	IEnumerator SpawnWaves ()
 	{    
 		yield return new WaitForSeconds (startWait);
 		for (int i = 0; i < len; i++) {
-            Debug.Log("for loop" + i.ToString());
 			//monster
 			if (i < monsterNum) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
@@ -79,7 +78,7 @@ public class GameController : MonoBehaviour
 			//monster1
 			if (i < monster1Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster1, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
@@ -88,7 +87,7 @@ public class GameController : MonoBehaviour
 			//monster2
 			if (i < monster2Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster2, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
@@ -97,7 +96,7 @@ public class GameController : MonoBehaviour
 			//monster3
 			if (i < monster3Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
-				GameObject obj = Instantiate (Monster, spawnPosition, spawnRotation);
+				GameObject obj = Instantiate (Monster3, spawnPosition, spawnRotation);
 				obj.transform.SetParent (MonsterParent);
 			}
 

@@ -1,15 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MonsterMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Draggable.cs">
     <Files>
-      <File FileName="Assets/Scripts/MonsterMovement.cs" Line="13" Column="2" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="99" Column="93" />
+      <File FileName="Assets/Scripts/Defender.cs" Line="12" Column="33" />
+      <File FileName="Assets/Scripts/DropZone.cs" Line="18" Column="22" />
+      <File FileName="Assets/Scripts/Draggable.cs" Line="8" Column="30" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="62" Column="6" />
+      <File FileName="Assets/Scripts/HealthSystem.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-=======
-  <MonoDevelop.Ide.Workbench />
->>>>>>> 1d67d35226ba392f263f0306437052e17d44e0a4
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
