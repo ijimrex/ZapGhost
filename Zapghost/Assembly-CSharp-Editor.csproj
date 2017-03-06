@@ -46,25 +46,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARCameraEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARControllerEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARMarkerEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\AROriginEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARToolKitMenuEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARToolKitPackager.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARToolKitPostProcessor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraGizmo.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectEditor.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectGizmo.cs" />
-     <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\Editor\ARTransitionalCameraEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARCameraEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARControllerEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARMarkerEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\AROriginEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitMenuEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitPackager.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitPostProcessor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraGizmo.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectEditor.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectGizmo.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTransitionalCameraEditor.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Resources\ARToolKit5-Unity\CHANGELOG.txt" />
-     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
-     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
+     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
      <None Include="Assets\Resources\Chibi Mummy\readme.txt" />
-     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
-     <None Include="Assets\Resources\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>/Users/Martin/Documents/martin/github/Zapghost/Zapghost/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

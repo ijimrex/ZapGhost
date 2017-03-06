@@ -621,6 +621,7 @@ MonoBehaviour:
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4409905124699130}
   fireRate: 2
+  type: 0
   placed: 0
 --- !u!114 &114100665520417710
 MonoBehaviour:
@@ -660,6 +661,7 @@ MonoBehaviour:
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4122716977639508}
   fireRate: 3
+  type: 0
   placed: 0
 --- !u!114 &114690686609334902
 MonoBehaviour:
@@ -675,6 +677,7 @@ MonoBehaviour:
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4342089292670654}
   fireRate: 2.5
+  type: 0
   placed: 0
 --- !u!114 &114826171539540000
 MonoBehaviour:
@@ -690,6 +693,7 @@ MonoBehaviour:
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4585888195934546}
   fireRate: 3.5
+  type: 0
   placed: 0
 --- !u!114 &114899688442560084
 MonoBehaviour:
