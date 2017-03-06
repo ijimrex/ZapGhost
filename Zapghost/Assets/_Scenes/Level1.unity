@@ -529,7 +529,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -802,7 +802,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -2930,7 +2930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1336618783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2961,8 +2961,8 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1334, y: 750}
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -3523,7 +3523,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -65
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -4124,8 +4124,8 @@ MonoBehaviour:
   AutoStartAR: 1
   videoCParamName0: camera_para
   videoConfigurationWindows0: -showDialog -flipV
-  videoConfigurationMacOSX0: -width=640 -height=480
-  videoConfigurationiOS0: 
+  videoConfigurationMacOSX0: -width=2880 -height=1800
+  videoConfigurationiOS0: -device=iPhone -width=1334 -height=750
   videoConfigurationAndroid0: 
   videoConfigurationWindowsStore0: -device=WinMC -format=BGRA -position=rear
   videoConfigurationLinux0: 
@@ -4969,7 +4969,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
