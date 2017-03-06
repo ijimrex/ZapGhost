@@ -6,14 +6,18 @@ using UnityEngine.EventSystems;
 public class DropZone : MonoBehaviour {
 
 	private bool isTriggered=false;
+	private Renderer rd;
 
-	public void OnTriggerEnter(Collider collider)
+	void Start() {
+		rd = GetComponent<MeshRenderer> ();
+	}
+
+	void OnTriggerEnter(Collider collider)
 
     {
-		Debug.Log ("collider");
-		Debug.Log (isTriggered + "tri");
-		Debug.Log (collider.tag);
 		if (isTriggered || collider.tag != "Defender") return;
+
+		rd.enabled = true;
 
 		isTriggered = true;
 
@@ -24,6 +28,13 @@ public class DropZone : MonoBehaviour {
             t.parentToReturnTo = this.transform;
         }
     }
+
+	void OnTriggerExit(Collider other) {
+		// Destroy everything that leaves the trigger
+		if (other.tag == "Defender") {
+			rd.enabled = false;
+		}
+	}
 
 	void Update()
 	{

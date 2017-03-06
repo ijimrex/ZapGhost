@@ -93,6 +93,10 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 			Defender defClass = d.GetComponent<Defender> ();
 			defClass.StartFire ();
 			defClass.Place ();
+			Transform grid = d.transform.parent;
+			Renderer rd = grid.GetComponent<MeshRenderer> ();
+			if (rd.enabled)
+				rd.enabled = false;
         }
         else
         {
