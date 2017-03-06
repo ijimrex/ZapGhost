@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114329167973653146}
   m_Layer: 12
   m_Name: Ghost_Brown
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

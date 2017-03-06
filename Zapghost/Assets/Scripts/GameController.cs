@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
 
 	void Update() {
 		if (deadMonsterNum == totalNum) {
-			//SceneManager.LoadScene("WinGame");
+			SceneManager.LoadScene("WinGame");
 		}
 	}
 	IEnumerator SpawnWaves ()

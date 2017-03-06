@@ -7,6 +7,7 @@ public class Defender : MonoBehaviour {
 	public GameObject shot;
 	public Transform shotSpawn;
 	public float fireRate = 0.5f;
+	public int type = 0;
 	public bool placed = false;
 	private float nextFire;
 	private bool startFire = false;
@@ -16,7 +17,12 @@ public class Defender : MonoBehaviour {
 		if (Time.time > nextFire && startFire) {
 			nextFire = Time.time + 1.0f/fireRate;
 			GameObject bolt = Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
-			bolt.transform.Rotate (new Vector3(0, 90,-90));
+			if (type == 1) {
+				bolt.transform.Rotate (new Vector3(0, 0,-90));
+			} else {
+				bolt.transform.Rotate (new Vector3(0, 90,-90));
+			}
+
 		} 
 	}
 

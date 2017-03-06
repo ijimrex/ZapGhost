@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114629866936069686}
   - component: {fileID: 65877128199340960}
   m_Layer: 13
-  m_Name: attackBot
+  m_Name: DefenderPref0
   m_TagString: Defender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,6 +447,7 @@ MonoBehaviour:
   shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
   shotSpawn: {fileID: 4801141733076148}
   fireRate: 0.5
+  type: 0
   placed: 0
 --- !u!114 &114629866936069686
 MonoBehaviour:
@@ -459,4 +460,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d564bbe481684219a3730022d937959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100000
+  startingHealth: 1000
