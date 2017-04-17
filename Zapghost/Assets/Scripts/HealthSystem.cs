@@ -12,12 +12,12 @@ public class HealthSystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentHealth = startHealth;
-		healthText.text = "Health: " + currentHealth.ToString ();
+		healthText.text = currentHealth.ToString ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		healthText.text = "Health: " + currentHealth.ToString ();
+		healthText.text = currentHealth.ToString ();
 		if (currentHealth <= 0) {
 			SceneManager.LoadScene("LostGame");
 		}

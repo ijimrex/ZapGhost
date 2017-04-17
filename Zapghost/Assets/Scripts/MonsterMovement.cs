@@ -12,6 +12,5 @@ public class MonsterMovement : MonoBehaviour
 	}
 	void onTrigerEnter (Collider other) {
 		Debug.Log (other.name);
-		Debug.Log ("你巴巴的");
 	}
 }

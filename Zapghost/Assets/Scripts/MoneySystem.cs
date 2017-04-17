@@ -11,12 +11,12 @@ public class MoneySystem : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentMoney = startMoney;
-		moneyText.text = "Money: " + currentMoney.ToString ();
+		moneyText.text = currentMoney.ToString ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		moneyText.text = "Money: " + currentMoney.ToString ();
+		moneyText.text = currentMoney.ToString ();
 	}
 
 }
