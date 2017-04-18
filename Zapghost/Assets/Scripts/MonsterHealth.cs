@@ -7,6 +7,7 @@ public class MonsterHealth : MonoBehaviour
 	public int coin = 10; // the score you will get when the Monster dead
 	public int power = 20; // attack power
 	private int takeDamage; // damage caused by defender
+	private int damageType;
 
 	private BoltPower otherAttack; // store the bolt which attack monster
 
@@ -26,14 +27,15 @@ public class MonsterHealth : MonoBehaviour
 		{
 			otherAttack = other.gameObject.GetComponent<BoltPower>();
 			takeDamage = otherAttack.power;
-			TakeDamage (takeDamage);
+			damageType = otherAttack.type;
+			TakeDamage (takeDamage, damageType);
 			Destroy (other.gameObject);
 		}
 		if (other.tag == "sword" && currentHealth >0)
 		{
 			Debug.Log ("sword damage");
 			takeDamage = other.gameObject.GetComponent<ShortAttackPower>().power;
-			TakeDamage (takeDamage);
+			TakeDamage (takeDamage, 0);
 			Destroy (other.gameObject);
 		}
 	}
@@ -41,7 +43,7 @@ public class MonsterHealth : MonoBehaviour
 
 
 
-	public void TakeDamage (int amount)
+	public void TakeDamage (int amount, int type)
 	{
 		if(isDead)
 			return;
@@ -52,6 +54,13 @@ public class MonsterHealth : MonoBehaviour
 		{
 			Death ();
 		}
+
+		//if attack type is frozen
+		if (type == 1) {
+			MonsterMovement move = GetComponent<MonsterMovement> ();
+			move.frozenTime = Time.time + 1f;
+		}
+
 	}
 
 

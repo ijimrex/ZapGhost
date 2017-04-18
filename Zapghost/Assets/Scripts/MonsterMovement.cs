@@ -5,7 +5,7 @@ public class MonsterMovement : MonoBehaviour
 {
 	public float moveSpeed = 5f;
 	private Color originColor;
-	private float frozenTime;
+	public float frozenTime;
 
 	void Start() {
 		Renderer[] rds = transform.GetComponentsInChildren<Renderer> ();
@@ -13,7 +13,6 @@ public class MonsterMovement : MonoBehaviour
 		foreach (Renderer r in rds) {
 			foreach (Material m in r.materials) {
 				m.shader = Shader.Find ("Specular");
-				Debug.Log (m.name);
 				originColor = m.GetColor ("_Color");
 			}
 		}

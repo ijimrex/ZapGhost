@@ -494,7 +494,7 @@ Transform:
   m_GameObject: {fileID: 1503471086046964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.8, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 4640885797544010}
   m_Father: {fileID: 0}
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143e8493103b245c0b4d6d14ccccfbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
+  shot: {fileID: 1483713469961962, guid: 6f254f99e505e47fe8fd8581fde5bace, type: 2}
   shotSpawn: {fileID: 4047100184276446}
   fireRate: 0.5
   type: 1
