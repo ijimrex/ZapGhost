@@ -29,6 +29,13 @@ public class MonsterHealth : MonoBehaviour
 			TakeDamage (takeDamage);
 			Destroy (other.gameObject);
 		}
+		if (other.tag == "sword" && currentHealth >0)
+		{
+			Debug.Log ("sword damage");
+			takeDamage = other.gameObject.GetComponent<ShortAttackPower>().power;
+			TakeDamage (takeDamage);
+			Destroy (other.gameObject);
+		}
 	}
 
 

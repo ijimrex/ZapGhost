@@ -23,14 +23,17 @@ public class DefenderHealth : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) 
 	{
+		Debug.Log ("blood");
 		if (other.tag == "Monster" && currentHealth >0)
 		{
 			TakeDamage (takeDamage);
 		}
+
 	}
 
 	void OnTriggerStay(Collider other) 
 	{
+		Debug.Log ("blood");
 		if (other.tag == "Monster" && currentHealth >0)
 		{
 			otherAttack = other.gameObject.GetComponent<MonsterHealth>();
