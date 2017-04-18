@@ -13,6 +13,7 @@ TagManager:
   - Character
   - Glove
   - Target
+  - sword
   layers:
   - Default
   - TransparentFX
