@@ -1707,7 +1707,7 @@ GameObject:
   - component: {fileID: 417347408}
   - component: {fileID: 417347410}
   m_Layer: 5
-  m_Name: Money
+  m_Name: MoneySystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2757,6 +2757,15 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114877434754001076, guid: 17e1e2f3854b241ad9d53da15afe4c12,
+        type: 2}
+      propertyPath: currentMoney
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706584101157018, guid: 17e1e2f3854b241ad9d53da15afe4c12, type: 2}
+      propertyPath: m_Name
+      value: Money
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 17e1e2f3854b241ad9d53da15afe4c12, type: 2}
   m_IsPrefabParent: 0
@@ -2914,7 +2923,7 @@ GameObject:
   - component: {fileID: 864436217}
   - component: {fileID: 864436219}
   m_Layer: 5
-  m_Name: Health
+  m_Name: HealthSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

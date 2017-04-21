@@ -47,6 +47,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
     }
 
 	private Boolean Affordable() {
+		Debug.Log (moneyManager);
 		return moneyManager.currentMoney >= cost;
 	}
 
