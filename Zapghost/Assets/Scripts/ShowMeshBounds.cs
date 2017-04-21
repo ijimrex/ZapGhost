@@ -47,11 +47,22 @@ public class ShowMeshBounds : MonoBehaviour {
 		Debug.DrawLine (v3FrontTopLeft, v3FrontBottomLeft, color);
 		Debug.DrawLine (v3FrontTopRight, v3FrontBottomRight, color);
 		Debug.DrawLine (v3FrontBottomLeft, v3FrontBottomRight, color);
-
+		/*
 		//draw top
-//		for (int i = 0; i < segements; i+=2) {
-//			Debug.DrawLine (v3FrontTopLeft, new Vector3 (v3FrontTopLeft.x + i * dis, v3FrontTopLeft.y, v3FrontTopLeft.z));
-//		}
-
+		for (int i = 0; i < segements; i+=2) {
+			Debug.DrawLine (new Vector3 (v3FrontTopLeft.x + i * dis, v3FrontTopLeft.y, v3FrontTopLeft.z), new Vector3 (v3FrontTopLeft.x + (i+1) * dis, v3FrontTopLeft.y, v3FrontTopLeft.z), color);
+		}
+		//draw left
+		for (int i = 0; i < segements; i+=2) {
+			Debug.DrawLine (new Vector3 (v3FrontTopLeft.x, v3FrontTopLeft.y, v3FrontTopLeft.z + i * dis), new Vector3 (v3FrontTopLeft.x, v3FrontTopLeft.y, v3FrontTopLeft.z + (i+1) * dis), color);
+		}
+		//draw right
+		for (int i = 0; i < segements; i+=2) {
+			Debug.DrawLine (new Vector3 (v3FrontTopRight.x, v3FrontTopRight.y, v3FrontTopRight.z + i * dis), new Vector3 (v3FrontTopRight.x, v3FrontTopRight.y, v3FrontTopRight.z + (i+1) * dis), color);
+		}
+		//draw bottom
+		for (int i = 0; i < segements; i+=2) {
+			Debug.DrawLine (new Vector3 (v3FrontBottomLeft.x + i * dis, v3FrontBottomLeft.y, v3FrontBottomLeft.z), new Vector3 (v3FrontBottomLeft.x + (i+1) * dis, v3FrontBottomLeft.y, v3FrontBottomLeft.z), color);
+		}*/
 	}
 }
