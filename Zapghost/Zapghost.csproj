@@ -116,6 +116,8 @@
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\ResultController.cs" />
+    <Compile Include="Assets\Scripts\ShortAttackPower.cs" />
+    <Compile Include="Assets\Scripts\ShowMeshBounds.cs" />
     <Compile Include="Assets\Scripts\TextRolling.cs" />
   </ItemGroup>
   <ItemGroup>
