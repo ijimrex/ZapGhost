@@ -81,9 +81,6 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
     {
 		if (d == null)
 			return;
-		Debug.Log (Physics.Raycast (clickRay, out clickPoint));
-		Debug.Log (parentToReturnTo.gameObject.name);
-		Debug.Log (parentToReturnTo.childCount);
         if (Physics.Raycast(clickRay, out clickPoint) && parentToReturnTo.childCount == 0)
         {
             d.transform.SetParent(parentToReturnTo);
