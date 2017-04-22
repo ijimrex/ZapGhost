@@ -36,9 +36,9 @@ GameObject:
   - component: {fileID: 4895635171162136}
   - component: {fileID: 95944250531506486}
   - component: {fileID: 54303497957615272}
-  - component: {fileID: 135976996580740014}
   - component: {fileID: 114073177367877460}
   - component: {fileID: 114329167973653146}
+  - component: {fileID: 136537517944172874}
   m_Layer: 12
   m_Name: Ghost_Brown
   m_TagString: Monster
@@ -422,19 +422,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff45c235979594ede9cbb5142d04c55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.1
+  moveSpeed: 0.05
   frozenTime: 0
---- !u!135 &135976996580740014
-SphereCollider:
+--- !u!136 &136537517944172874
+CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1169113521801362}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.012
+  m_Radius: 0.009
+  m_Height: 0.003
+  m_Direction: 1
   m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!137 &137413492310894512
 SkinnedMeshRenderer:

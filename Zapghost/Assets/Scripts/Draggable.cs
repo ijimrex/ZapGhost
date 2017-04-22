@@ -35,7 +35,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 			temp.x = -180f;
 			d = (GameObject)Instantiate (defObj, transform.position, Quaternion.Euler(temp));
 			Defender defClass = d.GetComponent<Defender> ();
-			if (defClass.type == 1) {
+			if (defClass.type == 1 || defClass.type == 2) {
 				d.transform.Rotate (new Vector3 (0, 90, 0));
 			}
 			//d = (GameObject)Instantiate (defObj, transform.position, transform.rotation);
