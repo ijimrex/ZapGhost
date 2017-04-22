@@ -7,7 +7,7 @@ public class control_script : MonoBehaviour {
 	bool boolper;
 
 
-	void Awake ()
+	void Update ()
 	{
 		anim = GetComponentInChildren<Animator>();
 		Run();
