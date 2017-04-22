@@ -18,6 +18,7 @@ public class DestroyByBoundary : MonoBehaviour {
 			Destroy(other.gameObject);
 		}
 		if (other.tag == "Monster") {
+			GameObject.Find ("GameController").GetComponent<GameController> ().deadMonsterNum ++;
 			healthSystem.currentHealth -= monsterHealth.power;
 		}
 	}

@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+	public int level;
+	public int totalLevel;
 	public GameObject Monster;
 	public GameObject Monster1;
 	public GameObject Monster2;
@@ -59,9 +61,15 @@ public class GameController : MonoBehaviour
 
 	void Update() {
 		if (deadMonsterNum == totalNum) {
-			SceneManager.LoadScene("WinGame");
+			if (level < totalLevel) {
+				SceneManager.LoadScene ("Level" + (level + 1));
+			} else {
+				SceneManager.LoadScene("WinGame");
+			}
+
 		}
 	}
+
 	IEnumerator SpawnWaves ()
 	{    
 		yield return new WaitForSeconds (startWait);
