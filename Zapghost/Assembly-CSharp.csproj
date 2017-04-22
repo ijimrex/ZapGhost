@@ -124,8 +124,8 @@
      <Compile Include="Assets\Scripts\ResultController.cs" />
      <Compile Include="Assets\Scripts\ShortAttackPower.cs" />
      <Compile Include="Assets\Scripts\ShowMeshBounds.cs" />
+     <Compile Include="Assets\Scripts\StartAnimation.cs" />
      <Compile Include="Assets\Scripts\TextRolling.cs" />
-     <Compile Include="Assets\Scripts\knifeAttack.cs" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />

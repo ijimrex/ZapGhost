@@ -5,9 +5,7 @@ function Start () {
 }
 
 function Update () {
-  
      GetComponent.<Animation>().CrossFade(animationList[1],0.01);
-
 }
 
 private function GetAnimationList():Array
