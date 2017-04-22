@@ -47,8 +47,6 @@ public class GameController : MonoBehaviour
 
 	void Start ()
 	{
-		
-        Debug.Log("Start spawn waves" + monster1Num.ToString() + "," + monster2Num.ToString());
 		int[] arr = { monsterNum, monster1Num, monster2Num, monster3Num };
 		System.Array.Sort (arr);
 		len = arr[arr.Length - 1];

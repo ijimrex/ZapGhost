@@ -68,9 +68,6 @@
      <Compile Include="Assets\Resources\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
      <Compile Include="Assets\Resources\Chibi Mummy\Scripts\anims_controls.cs" />
      <Compile Include="Assets\Resources\Chibi Mummy\Scripts\control_script.cs" />
-     <Compile Include="Assets\Resources\ProgressBar\Script\ProgressBarBehaviour.cs" />
-     <Compile Include="Assets\Resources\ProgressBar\Script\ProgressRadialBehaviour.cs" />
-     <Compile Include="Assets\Resources\ProgressBar\Script\Utils.cs" />
      <Compile Include="Assets\Resources\cha_data\Script\ScreenShot.cs" />
      <Compile Include="Assets\Scripts\BoltPower.cs" />
      <Compile Include="Assets\Scripts\Defender.cs" />
