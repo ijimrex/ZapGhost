@@ -106,6 +106,8 @@
      <Compile Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Resources\MedievalTownExteriors\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\Resources\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Resources\cha_data\Script\ScreenShot.cs" />
      <Compile Include="Assets\Scripts\BoltPower.cs" />
      <Compile Include="Assets\Scripts\Defender.cs" />
@@ -157,6 +159,7 @@
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Resources\MedievalTownExteriors\Readme.txt" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\Resources\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
