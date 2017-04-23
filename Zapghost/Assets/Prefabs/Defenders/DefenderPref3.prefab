@@ -2749,9 +2749,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143e8493103b245c0b4d6d14ccccfbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 1639204313986720, guid: a168b81e4c76345e5ad6bc51cee24569, type: 2}
+  shot: {fileID: 1259042636885516, guid: 4338b9d39eea94a8893318d37c403165, type: 2}
   shotSpawn: {fileID: 4736927781664202}
-  fireRate: 0.5
+  fireRate: 1
   type: 2
   placed: 0
 --- !u!136 &136462209379480308
