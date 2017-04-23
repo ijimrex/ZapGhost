@@ -5,7 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour {
-
+	
+	public int level = 1;
 	public int startHealth = 100;
 	public Text healthText;
 	public int currentHealth;
