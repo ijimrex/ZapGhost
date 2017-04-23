@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 33275635440050902}
   - component: {fileID: 23789798671072680}
   - component: {fileID: 64660746002172114}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 33859536759462966}
   - component: {fileID: 23513228094185548}
   - component: {fileID: 64938518152087338}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cliff (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 33151757229160858}
   - component: {fileID: 23135103942598662}
   - component: {fileID: 64568774924558258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 33316710374276602}
   - component: {fileID: 23754102003632774}
   - component: {fileID: 64137218282582228}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 33752060596376020}
   - component: {fileID: 23422484684314272}
   - component: {fileID: 64100711244585014}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 33739137553820224}
   - component: {fileID: 23363665630914396}
   - component: {fileID: 64080432659756184}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 33615933793064214}
   - component: {fileID: 23262229708964080}
   - component: {fileID: 64733875365999800}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 33162965009854186}
   - component: {fileID: 23551375404431154}
   - component: {fileID: 64823524619516820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 33301010510191576}
   - component: {fileID: 23346696020142576}
   - component: {fileID: 64079478165674760}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 33164596945629622}
   - component: {fileID: 23197424803186464}
   - component: {fileID: 64166472578097820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 33082840645817748}
   - component: {fileID: 23670171857813584}
   - component: {fileID: 64691575296169874}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rock4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 33855347971698200}
   - component: {fileID: 23399000138428002}
   - component: {fileID: 64783986253712320}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cliff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1595538967093714}
   m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: 36, y: 4, z: -48.1}
+  m_LocalPosition: {x: 59, y: 4, z: -36.2}
   m_LocalScale: {x: 9.999999, y: 10.000002, z: 10.000002}
   m_Children: []
   m_Father: {fileID: 4927241517112666}
@@ -353,7 +353,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1254843379786608}
   m_LocalRotation: {x: 0.000000119209275, y: -0.92200154, z: 0.00000023841855, w: 0.38718638}
-  m_LocalPosition: {x: -44.4, y: 0.3, z: -5.8}
+  m_LocalPosition: {x: -57.6, y: 0.3, z: -23.3}
   m_LocalScale: {x: 2.9740047, y: 3.542003, z: 3.5340033}
   m_Children: []
   m_Father: {fileID: 4927241517112666}
