@@ -92,8 +92,7 @@ public class Draggable : MonoBehaviour, IBeginDragHandler,IDragHandler,IEndDragH
 			defClass.Place ();
 			Transform grid = d.transform.parent;
 			Renderer rd = grid.GetComponent<MeshRenderer> ();
-			if (rd.enabled)
-				rd.enabled = false;
+			rd.material.color = new Color (1f, 1f, 1f, 0.49f);
         }
         else
         {

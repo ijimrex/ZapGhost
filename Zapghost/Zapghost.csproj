@@ -163,8 +163,8 @@
     <Compile Include="Assets\Scripts\ResultController.cs" />
     <Compile Include="Assets\Scripts\ShortAttackPower.cs" />
     <Compile Include="Assets\Scripts\ShowMeshBounds.cs" />
+    <Compile Include="Assets\Scripts\StartAnimation.cs" />
     <Compile Include="Assets\Scripts\TextRolling.cs" />
-    <Compile Include="Assets\Scripts\knifeAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />

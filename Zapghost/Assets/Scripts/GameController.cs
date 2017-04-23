@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
 	public int level;
-	public int totalLevel;
+	private int totalLevel;
 	public GameObject Monster;
 	public GameObject Monster1;
 	public GameObject Monster2;
@@ -41,6 +41,7 @@ public class GameController : MonoBehaviour
 		Location [4] = GameObject.Find ("Grid4").transform.position.x;
 		world = GameObject.Find ("All").transform;
 		spawnRotation = world.localRotation;
+		totalLevel = 4;
 	}
 		
 

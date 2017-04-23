@@ -247,11 +247,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4014963532978920}
   - component: {fileID: 111097042076569512}
-  - component: {fileID: 114807076740053776}
   - component: {fileID: 114647896855586452}
   - component: {fileID: 114115270647027342}
   - component: {fileID: 65152775127645166}
   - component: {fileID: 54939455449307058}
+  - component: {fileID: 114771729018220656}
   m_Layer: 13
   m_Name: DefenderPref2
   m_TagString: Defender
@@ -990,9 +990,9 @@ Animation:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1503471086046964}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: afa46a7eafad7874da3988d082799d38, type: 3}
+  m_Animation: {fileID: 7400000, guid: 49b297db20eec434cb72977e88d5107b, type: 3}
   m_Animations:
   - {fileID: 7400000, guid: ac1d9b0420ad1b146b5d57d7729b647e, type: 3}
   - {fileID: 7400000, guid: 49b297db20eec434cb72977e88d5107b, type: 3}
@@ -1031,7 +1031,7 @@ MonoBehaviour:
   fireRate: 0.5
   type: 1
   placed: 0
---- !u!114 &114807076740053776
+--- !u!114 &114771729018220656
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1503471086046964}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e959df06dffac42f89f27afca2dbb6e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 19f5c2ef4f5f348b2b6e02182bf4e402, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!137 &137430982939272398

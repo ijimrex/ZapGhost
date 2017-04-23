@@ -7,6 +7,7 @@ public class DropZone : MonoBehaviour {
 
 	private bool isTriggered=false;
 	private Renderer rd;
+	private Color tmp;
 
 	void Start() {
 		rd = GetComponent<MeshRenderer> ();
@@ -17,7 +18,9 @@ public class DropZone : MonoBehaviour {
     {
 		if (isTriggered || collider.tag != "Defender") return;
 
-		rd.enabled = true;
+		tmp = rd.material.color;
+
+		rd.material.color = Color.red;
 
 		isTriggered = true;
 
@@ -30,9 +33,8 @@ public class DropZone : MonoBehaviour {
     }
 
 	void OnTriggerExit(Collider other) {
-		// Destroy everything that leaves the trigger
 		if (other.tag == "Defender") {
-			rd.enabled = false;
+			rd.material.color = tmp;
 		}
 	}
 
