@@ -41,5 +41,8 @@ public class DropZone : MonoBehaviour {
 	void Update()
 	{
 		isTriggered = false;
+		if (transform.childCount == 1) {
+			rd.material.color = tmp;
+		}
 	}
 }

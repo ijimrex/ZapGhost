@@ -125,10 +125,10 @@ MonoBehaviour:
   Monster2: {fileID: 1578629441041510, guid: addc29474ed3b4978863bc1f12a97501, type: 2}
   Monster3: {fileID: 1534967848673940, guid: a54d9db4001d340558bf862661baad79, type: 2}
   spawnValues: {x: 0, y: 1, z: -0}
-  monsterNum: 10
-  monster1Num: 8
-  monster2Num: 6
-  monster3Num: 0
+  monsterNum: 15
+  monster1Num: 10
+  monster2Num: 10
+  monster3Num: 5
   deadMonsterNum: 0
   spawnWait: 2
   startWait: 1
@@ -1016,7 +1016,7 @@ Prefab:
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: cost
-      value: 40
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -1219,11 +1219,16 @@ Prefab:
     - target: {fileID: 114877434754001076, guid: 17e1e2f3854b241ad9d53da15afe4c12,
         type: 2}
       propertyPath: currentMoney
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1706584101157018, guid: 17e1e2f3854b241ad9d53da15afe4c12, type: 2}
       propertyPath: m_Name
       value: Money
+      objectReference: {fileID: 0}
+    - target: {fileID: 114877434754001076, guid: 17e1e2f3854b241ad9d53da15afe4c12,
+        type: 2}
+      propertyPath: startMoney
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 17e1e2f3854b241ad9d53da15afe4c12, type: 2}
@@ -2208,7 +2213,7 @@ Prefab:
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: cost
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}

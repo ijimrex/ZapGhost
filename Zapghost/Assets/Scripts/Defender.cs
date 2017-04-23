@@ -10,7 +10,7 @@ public class Defender : MonoBehaviour {
 	public int type = 0;
 	public bool placed = false;
 	private float nextFire;
-	private bool startFire = true;
+	private bool startFire = false;
 
 	// Update is called once per frame
 	void FixedUpdate () {

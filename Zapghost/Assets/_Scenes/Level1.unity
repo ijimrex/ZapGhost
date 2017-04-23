@@ -1329,7 +1329,7 @@ Prefab:
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: cost
-      value: 40
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -3191,7 +3191,7 @@ Prefab:
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: cost
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114097636686206056, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}

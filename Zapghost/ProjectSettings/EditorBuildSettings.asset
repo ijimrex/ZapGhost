@@ -7,16 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: Assets/ARToolKit5-Unity/Example Scenes/CubemarkerScene.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/_Scenes/Level1.unity
-    guid: 8393a7ad5894fe945bd152832fef05a6
   - enabled: 1
     path: Assets/_Scenes/StartGame.unity
-    guid: b54e0faf23e6e7f4d839774640158f73
   - enabled: 1
-    path: Assets/_Scenes/LostGame.unity
-    guid: 485a7e09a2dfa44cb9c4b411ad654395
+    path: Assets/_Scenes/Level1.unity
+  - enabled: 1
+    path: Assets/_Scenes/Level2.unity
+  - enabled: 1
+    path: Assets/_Scenes/Level3.unity
+  - enabled: 1
+    path: Assets/_Scenes/Level4.unity
   - enabled: 1
     path: Assets/_Scenes/WinGame.unity
-    guid: 1f505459171b3418087bde4e0bdb8491
+  - enabled: 1
+    path: Assets/_Scenes/LostGame.unity
