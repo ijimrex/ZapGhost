@@ -4,6 +4,7 @@ using System.Collections;
 public class MonsterMovement : MonoBehaviour
 {
 	public float moveSpeed = 5f;
+	public int type = 0;
 	private Color originColor;
 	public float frozenTime;
 
@@ -35,8 +36,12 @@ public class MonsterMovement : MonoBehaviour
 					m.SetColor ("_Color", new Color (0, 83, 246, 255));
 				}
 			}
+			if (type == 0) {
+				transform.Translate (new Vector3 (0, 0, -1) * moveSpeed * 0.7f * Time.deltaTime);
+			} else {
+				transform.Translate (new Vector3 (0, 0, 1) * moveSpeed * 0.7f * Time.deltaTime);
+			}
 
-			transform.Translate (new Vector3 (0, 0, -1) * moveSpeed * 0.7f * Time.deltaTime);
 		} else {
 			foreach (Renderer r in rds) {
 				foreach (Material m in r.materials) {
@@ -44,7 +49,12 @@ public class MonsterMovement : MonoBehaviour
 					m.SetColor ("_Color", originColor);
 				}
 			}
-			transform.Translate (new Vector3 (0, 0, -1) * moveSpeed * Time.deltaTime);
+			if (type == 0) {
+				transform.Translate (new Vector3 (0, 0, -1) * moveSpeed * Time.deltaTime);
+			} else {
+				transform.Translate (new Vector3 (0, 0, 1) * moveSpeed * Time.deltaTime);
+			}
+
 		}
 	}
 }

@@ -557,7 +557,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -776,7 +776,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1254,7 +1254,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -105
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -1650,6 +1650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a3a9b529d7b49fdb491e7be3a4a023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 1
   startHealth: 100
   healthText: {fileID: 549040723}
   currentHealth: 0
@@ -3131,7 +3132,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
@@ -3838,7 +3839,7 @@ Prefab:
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224685557540483160, guid: 662b14efec7d8e344b58fd2c1ea302e2,
         type: 2}

@@ -1351,6 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.05
+  type: 1
   frozenTime: 0
 --- !u!136 &136493051921890060
 CapsuleCollider:

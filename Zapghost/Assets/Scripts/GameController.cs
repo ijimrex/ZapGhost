@@ -87,6 +87,7 @@ public class GameController : MonoBehaviour
 			if (i < monster1Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				GameObject obj = Instantiate (Monster1, spawnPosition, spawnRotation);
+				obj.transform.Rotate (new Vector3 (0, 180, 0));
 				obj.transform.SetParent (MonsterParent);
 				yield return new WaitForSeconds (0.5f);
 			}
@@ -105,6 +106,7 @@ public class GameController : MonoBehaviour
 			if (i < monster3Num) {
 				Vector3 spawnPosition = new Vector3 (GetRandom(Location), spawnValues.y, spawnValues.z);
 				GameObject obj = Instantiate (Monster3, spawnPosition, spawnRotation);
+				obj.transform.Rotate (new Vector3 (0, 180, 0));
 				obj.transform.SetParent (MonsterParent);
 			}
 
