@@ -1152,6 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a3a9b529d7b49fdb491e7be3a4a023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 1
   startHealth: 100
   healthText: {fileID: 549040723}
   currentHealth: 0
@@ -3220,22 +3221,6 @@ Prefab:
     - target: {fileID: 4927241517112666, guid: 8289ecf98e00f475fb4de0458ff60a29, type: 2}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4453683041137274, guid: 8289ecf98e00f475fb4de0458ff60a29, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 59
-      objectReference: {fileID: 0}
-    - target: {fileID: 4453683041137274, guid: 8289ecf98e00f475fb4de0458ff60a29, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -36.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4847190209007278, guid: 8289ecf98e00f475fb4de0458ff60a29, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -57.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4847190209007278, guid: 8289ecf98e00f475fb4de0458ff60a29, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -23.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8289ecf98e00f475fb4de0458ff60a29, type: 2}
