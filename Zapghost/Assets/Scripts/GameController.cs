@@ -60,12 +60,13 @@ public class GameController : MonoBehaviour
 
 	void Update() {
 		if (deadMonsterNum == totalNum) {
-			if (level < totalLevel) {
+			/*if (level < totalLevel) {
 				SceneManager.LoadScene ("Level" + (level + 1));
 			} else {
 				SceneManager.LoadScene("WinGame");
-			}
+			}*/
 
+				SceneManager.LoadScene("WinGame");
 		}
 	}
 
