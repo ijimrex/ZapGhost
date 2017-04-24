@@ -18,6 +18,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Level4.unity
   - enabled: 1
+    path: Assets/_Scenes/LevelSelect.unity
+  - enabled: 1
     path: Assets/_Scenes/WinGame.unity
   - enabled: 1
     path: Assets/_Scenes/LostGame.unity
