@@ -266,7 +266,7 @@ RectTransform:
   m_GameObject: {fileID: 583889613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.98750085, z: 1}
   m_Children:
   - {fileID: 1046959079}
   - {fileID: 1689948635}
@@ -379,7 +379,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: Play Again
 --- !u!222 &935594898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Return to MainMenu
 --- !u!222 &944523637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -492,7 +492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 78}
+  m_AnchoredPosition: {x: 0, y: 57}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046959080
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 200, y: 100}
+  m_CellSize: {x: 200, y: 150}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -663,6 +663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4219a7534d1bed247afcc4a2209d0fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MenuPanel: {fileID: 0}
+  AboutPanel: {fileID: 0}
 --- !u!1 &1687831418
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,7 +677,7 @@ GameObject:
   - component: {fileID: 1687831421}
   - component: {fileID: 1687831420}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,7 +699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -24}
+  m_AnchoredPosition: {x: 0, y: -39}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1687831420
@@ -740,7 +742,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1355845618}
-        m_MethodName: Quit
+        m_MethodName: mainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -797,7 +799,7 @@ GameObject:
   - component: {fileID: 1689948637}
   - component: {fileID: 1689948636}
   m_Layer: 5
-  m_Name: Play
+  m_Name: PlayAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -819,7 +821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 22}
+  m_AnchoredPosition: {x: 0, y: 10}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689948636
@@ -862,7 +864,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1355845618}
-        m_MethodName: StartGame
+        m_MethodName: PlayAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

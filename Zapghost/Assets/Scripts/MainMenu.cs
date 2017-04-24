@@ -50,4 +50,8 @@ public class MainMenu : MonoBehaviour {
         MenuPanel.SetActive(true);
         AboutPanel.SetActive(false);
     }
+
+	public void mainMenu() {
+		SceneManager.LoadScene ("StartGame");
+	}
 }

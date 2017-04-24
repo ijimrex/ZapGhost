@@ -25,7 +25,7 @@ public class Pause : MonoBehaviour {
 
     public void returnMenu()
     {
-        SceneManager.LoadScene("StartGame");
+        SceneManager.LoadScene("LevelSelect");
         Time.timeScale = 1;
     }
 
