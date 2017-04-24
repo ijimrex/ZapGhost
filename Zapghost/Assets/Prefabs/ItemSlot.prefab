@@ -74,8 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01797839681a3e4d9d6567a9cbd5d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Defender1: {fileID: 1803873565710390, guid: 0199c80e92982460092321171aee91a1, type: 2}
-  plane: {fileID: 0}
+  defObj: {fileID: 1695229989243110, guid: 54b6307e6f59e44ad96e4e5354277dbe, type: 2}
   cost: 10
   parentToReturnTo: {fileID: 0}
 --- !u!114 &114169583297601872
@@ -142,7 +141,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 4652fa3c0ec9649d489cb697afa91b7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eaa45dbccf58c0f4982bf6f56dc1c555, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -208,7 +207,7 @@ RectTransform:
   m_GameObject: {fileID: 1324593241436930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.1, z: 1.1}
   m_Children: []
   m_Father: {fileID: 224685557540483160}
   m_RootOrder: 0

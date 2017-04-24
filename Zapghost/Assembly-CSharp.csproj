@@ -72,6 +72,9 @@
      <Compile Include="Assets\Resources\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Resources\StarNestSkybox\Scripts\CameraScroll.cs" />
      <Compile Include="Assets\Resources\StarNestSkybox\Scripts\SkyboxSwitcher.cs" />
+     <Compile Include="Assets\Resources\TypeOut\Scripts\GUIScript.cs" />
+     <Compile Include="Assets\Resources\TypeOut\Scripts\TypeOutEditor.cs" />
+     <Compile Include="Assets\Resources\TypeOut\Scripts\TypeOutScript.cs" />
      <Compile Include="Assets\Resources\cha_data\Script\ScreenShot.cs" />
      <Compile Include="Assets\Scripts\BoltPower.cs" />
      <Compile Include="Assets\Scripts\Defender.cs" />

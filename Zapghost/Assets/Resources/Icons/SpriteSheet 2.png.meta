@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 24c419aeb57a82c49b1f54fa3ec0daf1
-timeCreated: 1492813242
+timeCreated: 1492999538
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -147,6 +147,22 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -154,12 +170,12 @@ TextureImporter:
       name: SpriteSheet 2_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 1081
+        x: 55
+        y: 1075
         width: 82
         height: 82
-      alignment: 9
-      pivot: {x: -0.057946835, y: 0.42029256}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -172,7 +188,7 @@ TextureImporter:
         width: 28
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
